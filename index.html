@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carta Restaurant</title>
+</head>
+<body>
+    <div class="preload">
+        <div class="lds-dual-ring"></div>
+    </div>
+    <main id="main">
+<!--         <div class="usuario">
+            <p>Usuario: <span id="name"></span></p>
+        </div> -->
+
+        <div id="container" class="container">
+
+            <div id="img" class="container__title">
+                <img src="./src/bandera.png" alt="">
+                <p>Restaurant</p>
+            </div>
+            <div class="container__cartas">
+                <div id="container__carta1">
+                    <p>
+                        <span>Entradas</span>  <br>
+                        <span>1 - </span> Matambre Arrollado --- $400 <br>
+                        <span>2 - </span> Ensalada Rusa --- $350 <br>
+                        <span>3 - </span> Berenjenas al Escabeche --- $350 <br>
+                        <span>4 - </span>Ensalada de Arbejas --- $400 <br>
+                        <span>5 - </span> Picada --- $650 <br>
+                        <span>6 - </span> Bastones de Muzzarella --- $450<br>
+                        <span>7 - </span> Bocadillos de Acelga --- $250 <br>
+                        <span>8 - </span> Empanadas --- $250 <br>
+                        <span>9 - </span> Picada x5 --- $1000 <br>
+                        <span>10 - </span>Ensalada de Papa --- $300 <br>
+                    </p>
+                </div>
+                <div id="container__carta2">
+                    <p>
+                        <span>Parrilla</span>  <br>
+                        <span>11 - </span> Parrillada p/1 --- $890 <br>
+                        <span>12 - </span> Parrillada p/2 --- $1650 <br>
+                        <span>13 - </span> Asado --- $850 <br>
+                        <span>14 - </span> Vacio --- $950 <br>
+                        <span>15 - </span> Entraña --- $950 <br>
+                        <span>16 - </span> Lechon --- $750 <br>
+                        <span>17 - </span> Mollejas --- $900<br>
+                        <span>18 - </span> Bife de Chorizo --- $650 <br>
+                        <span>19 - </span> Bondiola --- $670 <br>
+                        <span>20 - </span> Pollo --- $500<br>
+                    </p>
+                </div>
+                <div id="container__carta3">
+                    <p>
+                        <span>Pastas</span>  <br>
+                        <span>21 - </span> Sorrentinos --- $450  <br>
+                        <span>22 - </span> Ravioles --- $500  <br>
+                        <span>23 - </span> Canelones --- $400  <br>
+                        <span>24 - </span> Farafale --- $300  <br>
+                        <span>25 - </span> Fideos --- $350  <br>
+                        <span>26 - </span> Rigatoni --- $240  <br>
+                        <span>27 - </span> Penne Rigate --- $300 <br>
+                        <span>28 - </span> Tallarines --- $400 <br>
+                        <span>29 - </span> Canelones jyq --- $500 <br>
+                        <span>30 - </span> Sorrentinos Verdura --- $480 <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <form action="">
+            <input id="pedido" type="button" value="Pedir!" > 
+            <input id="lista" type="button" value="Ver pedido" > 
+            <a href="./form/form.html"><input id="finalizar" type="button" value="Finalizar" > </a>
+        </form>
+        <div id="listpedidos"><i id="iconX" class="fas fa-times"></i>
+            <div id="mostrarLista"></div>
+            <div class="suma">Total : $ <span id="suma"></span> </div>
+            <input id="Agregar" type="button" value="Agregar" > 
+            <input id="Vaciar" type="button" value="Vaciar" > 
+            <a href="./form/form.html"><input id="fin" type="button" value="Finalizar" > </a> 
+        </div>
+        
+
+    </main>
+
+    <script src="./index.js"></script> 
+    <script  src= "./form/fin/preload.js"></script>
+</body>
+
+
+</html>

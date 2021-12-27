@@ -1,0 +1,547 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(14, 12, 12, 0.959);
+}
+
+main{
+    height: 100vh;
+    background-image: url("../src/fond22.jpg");
+}
+
+.container{
+    width: 40%;
+    height: 95vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 15px solid rgb(8, 8, 8);
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+}
+
+#formulario{
+    font-size: 2rem;
+    line-height: 6rem;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+}
+
+#formulario p{
+    margin: 0 1rem;
+}
+
+#formulario select{
+    margin: 0 1rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+
+#formulario input{
+    height: 3rem;
+    width: 20rem;
+    margin: 0 1rem;
+}
+
+#Final{
+    width: 12rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+#volver{
+    width: 12rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.bot{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pagar{
+    color: white;
+    font-size: 2.8rem;
+    padding-top: 4rem;
+}
+
+#aviso{
+    color: white;
+    text-shadow: 0 0 0.3rem rgb(235, 235, 235);
+    font-size: 1.6rem;
+    position: absolute;
+    right: 22%;
+    top:8%
+}
+
+.vv{
+    position: relative;
+}
+
+
+
+@media (min-width :1401px)and (max-width: 1700px){
+
+    .container{
+        width: 50%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    
+    #formulario{
+        font-size: 2rem;
+        line-height: 5.5rem;
+        top: 45%;
+        left: 40%;
+    }
+    
+    #formulario p{
+        margin: 0 1rem;
+    }
+    
+    #formulario select{
+        margin: 0 1rem;
+        height: 3rem;
+        width: 20rem;
+    }
+    
+    
+    #formulario input{
+        height: 3rem;
+        width: 20rem;
+        margin: 0 1rem;
+    }
+    
+    #Final{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.8rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.8rem;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: 0%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #pagar{
+        color: white;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    
+    #aviso{
+        color: white;
+        text-shadow: 0 0 0.3rem rgb(235, 235, 235);
+        font-size: 1.6rem;
+        position: relative;
+        right:0%;
+    }
+    
+}
+
+
+@media (max-width :1400px){
+
+    .container{
+        width: 50%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    
+    #formulario{
+        font-size: 2rem;
+        line-height: 5rem;
+        top: 45%;
+        left: 40%;
+    }
+    
+    #formulario p{
+        margin: 0 1rem;
+    }
+    
+    #formulario select{
+        margin: 0 1rem;
+        height: 3rem;
+        width: 20rem;
+    }
+    
+    
+    #formulario input{
+        height: 3rem;
+        width: 20rem;
+        margin: 0 1rem;
+    }
+    
+    #Final{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.8rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.8rem;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: 0%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #pagar{
+        color: white;
+        font-size: 2.4rem;
+        padding-top: 2rem;
+    }
+    
+    #aviso{
+        color: white;
+        text-shadow: 0 0 0.3rem rgb(235, 235, 235);
+        font-size: 1.6rem;
+        position: relative;
+        right:0%;
+    }
+    
+}
+
+
+@media (max-width :868px){
+    .container{
+        width: 55%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    
+    #formulario{
+        font-size: 2rem;
+        line-height: 5rem;
+        top: 45%;
+        left: 40%;
+    }
+    
+    #formulario p{
+        margin: 0 1rem;
+    }
+    
+    #formulario select{
+        margin: 0 1rem;
+        height: 3rem;
+        width: 20rem;
+    }
+    
+    
+    #formulario input{
+        height: 3rem;
+        width: 20rem;
+        margin: 0 1rem;
+    }
+    
+    #Final{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: -1%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #pagar{
+        color: white;
+        font-size: 2.2rem;
+        padding-top: 2rem;
+        width: 100%;
+    }
+    
+    #aviso{
+        color: white;
+        text-shadow: 0 0 0.3rem rgb(235, 235, 235);
+        font-size: 1.6rem;
+        position: relative;
+        right:0%;
+    }
+    
+}
+
+
+
+@media (max-width: 634px){
+
+    .container{
+        width: 75%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    #Final{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: -1%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+}
+
+
+@media (max-width: 482px){
+    .container{
+        width: 85%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    #Final{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: -1%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+
+}
+
+
+@media (max-width: 350px){
+    .container{
+        width: 95%;
+        height: 95vh;
+        top:50%;
+        left: 50%;
+    }
+    #Final{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.6rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #formulario{
+        font-size: 2rem;
+        line-height: 5rem;
+        top: 45%;
+        left: 45%;
+    }
+    
+    .bot{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        bottom: -1%;
+        left:48%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+
+}

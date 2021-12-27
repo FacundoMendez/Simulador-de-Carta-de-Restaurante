@@ -1,0 +1,776 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: rgba(167, 167, 167, 0.959);
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    height: 100vh;
+    background-image: url("./src/fond22.jpg");
+    overflow: hidden;
+}
+
+.container{
+    width: 60%;
+    border: 15px solid rgb(8, 8, 8);
+    height: 70rem;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0 0.5rem rgb(131, 130, 130);
+}
+
+.container__title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -7.5%;
+    filter: sepia(0.3);
+} 
+
+.container__title p{
+    font-size: 5rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 1rem rgb(255, 254, 254);
+    font-style: italic;
+}
+
+.usuario{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    padding:  4rem 10rem;
+}
+
+#name span{
+    color: rgb(218, 149, 0);
+
+}
+
+.container__cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12%;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 4.4rem;
+    color: rgb(219, 219, 218);
+}
+
+.container__cartas span{
+    color:rgb(218, 149, 0);
+    text-shadow: 0 0 0.2rem rgb(179, 179, 179);
+}
+
+#pedido{
+    width: 18rem;
+    height: 7rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    position: absolute;
+    top:23%;
+    left: 9.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lista{
+    width: 18rem;
+    height: 7rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    position: absolute;
+    top:35%;
+    left: 9.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizar{
+    width: 18rem;
+    height: 7rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    color: white;
+    position: absolute;
+    top:47%;
+    left: 9.5%;
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#listpedidos{
+    width: 60%;
+    margin-top: 2.8%;
+    border: 15px solid rgb(8, 8, 8);
+    height: 70rem;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+    top:43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    overflow: hidden;
+    
+}
+
+#listpedidos i{
+    font-size: 5rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}    
+
+
+#listpedidos i:hover{
+    font-size: 4.8rem;
+    color: rgb(221, 2, 2);
+}
+
+.suma{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0 0 0.5rem rgb(235, 235, 235);
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+}
+
+#mostrarLista{
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    line-height: 4rem;
+    font-weight: 900;
+    color: rgb(226, 226, 226);
+}
+
+#Agregar{
+    width: 13rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fin{
+    width: 13rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Vaciar{
+    width: 13rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:rgb(19, 19, 19);
+    box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* preload */
+
+/* configuracion preload */
+.preload{
+    width: 100vw;
+    height: 100vh;
+  /*   background: radial-gradient(circle, rgba(0,1,31,1) 0%, rgba(0,0,0,1) 100%); */
+    background-color: black;
+    position: fixed;
+    top: 0rem;
+    left: 0px;
+    z-index: 9000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* clase que crea js para que se cierra */
+
+.cerrar{
+    opacity: -0;
+    transition: all 0.5s;
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: rgb(250, 194, 73) transparent rgb(250, 194, 73) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+@media (max-width :1500px){
+
+    .container{
+        width: 75%;
+        left: 58%;
+    }
+
+    #listpedidos{
+        width: 90%;
+        
+    }
+    #Agregar{
+        left: 10%;
+    }
+    
+    #fin{
+        left: 44%;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 27%;
+    }
+
+
+
+}
+
+
+@media (max-width :1400px){
+    .container{
+        width: 80%;
+        left: 58%;
+    }
+    
+    
+    .container__cartas{
+        font-size: 1.8rem;
+    }
+    
+    
+    #pedido{
+        width: 15rem;
+        height: 6rem;
+    }
+    
+    #lista{
+        width: 15rem;
+        height: 6rem;
+    }
+    
+    #finalizar{
+        width: 15rem;
+        height: 6rem;
+    }
+    
+    
+    #listpedidos{
+        width: 90%;
+    }
+    
+    
+    
+    #Agregar{
+        left: 10%;
+    }
+    
+    #fin{
+        left: 44%;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 27%;
+    }
+
+}
+
+
+@media (max-width: 1082px){
+    .container{
+        width: 95%;
+        left: 50%;
+        top:45%;
+    }
+    
+    
+    .container__cartas{
+        font-size: 1.8rem;
+    }
+    
+    
+    #pedido{
+        width: 15rem;
+        height: 6rem;
+        top:92%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #lista{
+        width: 15rem;
+        height: 6rem;
+        top:92%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #finalizar{
+        width: 15rem;
+        height: 6rem;
+        top:92%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    #listpedidos{
+        width: 90%;
+    }
+    
+    
+    
+    #Agregar{
+        left: 10%;
+    }
+    
+    #fin{
+        left: 50%;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 30%;
+    }
+
+    .suma{
+        font-size: 3rem;
+        right: 3%;
+        bottom: 2%;
+    }
+
+
+}
+
+
+@media (max-width :868px){
+    main{
+        overflow:auto;
+        height: 170vh;
+    }
+    .container{
+        width: 95%;
+        left: 50%;
+        top:45%;
+        height: 135vh;
+    }
+    
+    
+    .container__cartas{
+        font-size: 1.8rem;
+    }
+    
+    
+    #pedido{
+        width: 18rem;
+        height: 8rem;
+        top:155%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #lista{
+        width: 18rem;
+        height: 8rem;
+        top:155%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #finalizar{
+        width: 18rem;
+        height: 8rem;
+        top:155%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    #listpedidos{
+        width: 90%;
+    }
+
+    
+    #container__carta3{
+        padding-top: 7rem;
+        padding-right: 26rem;
+    }
+    
+    
+    #Agregar{
+        left: 85%;
+        bottom: 30%;
+    }
+    
+    #fin{
+        left: 50%;
+        left: 85%;
+        bottom: 2%;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 85%;
+        bottom: 16%;
+    }
+
+    .suma{
+        font-size: 3rem;
+        right: 55%;
+        bottom: 2%;
+    }
+}
+
+
+@media (max-width: 634px){
+    main{
+        overflow:auto;
+        height: 230vh;
+    }
+    .container{
+        width: 95%;
+        left: 50%;
+        top:48%;
+        height: 205vh;
+    }
+    
+    .container__title{
+        top: -3%;
+    } 
+
+    .container__title img{
+        width: 97%;
+    }
+    
+    .container__title p{
+        font-size: 4rem;
+    }
+    
+    .container__cartas{
+        font-size: 1.8rem;
+    }
+    
+    
+    #pedido{
+        width: 13rem;
+        height: 7rem;
+        font-size: 1.8rem;
+        top:220%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #lista{
+        width: 13rem;
+        height: 7rem;
+        font-size: 1.8rem;
+        top:220%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #finalizar{
+        width: 13rem;
+        height: 7rem;
+        top:220%;
+        font-size: 1.8rem;
+        left: 82%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    #listpedidos{
+        width: 90%;
+    }
+
+    #container__carta1{
+        padding-top: 7rem;
+    }
+
+    #container__carta3{
+        padding-top: 7rem;
+        padding-right: 5rem;
+    }
+
+    #container__carta2{
+        padding-top: 7rem;
+        padding-right: 8rem;
+    }
+    
+    
+    #Agregar{
+        left: 80%;
+        bottom: 30%;
+    }
+    
+    #fin{
+        left: 80%;
+        bottom: 2%;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 80%;
+        bottom: 16%;
+    }
+
+    .suma{
+        font-size: 3rem;
+        right: 38%;
+        bottom: 2%;
+    }
+
+}
+
+
+@media (max-width: 482px){
+    main{
+        overflow:auto;
+        height: 230vh;
+    }
+    .container{
+        width: 95%;
+        left: 50%;
+        top:48%;
+        height: 200vh;
+    }
+    
+    .container__title{
+        top: -1.5%;
+    } 
+
+    .container__title img{
+        width: 97%;
+    }
+    
+    .container__title p{
+        font-size: 3rem;
+    }
+    
+    .container__cartas{
+        font-size: 1.4rem;
+    }
+    
+    
+    #pedido{
+        width: 11rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        top:220%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #lista{
+        width: 11rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        top:220%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #finalizar{
+        width: 11rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        top:220%;
+        left: 83%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    #listpedidos{
+        width: 95%;
+    }
+
+    #container__carta1{
+        padding-top: 7rem;
+    }
+
+    #container__carta3{
+        padding-top: 7rem;
+        padding-right: 2rem;
+    }
+
+    #container__carta2{
+        padding-top: 7rem;
+        padding-right: 5rem;
+    }
+    
+    
+    #Agregar{
+        left: 77%;
+        bottom: 30%;
+        font-size: 1.5rem;
+    }
+    
+    #fin{
+        left: 77%;
+        bottom: 2%;
+        font-size: 1.5rem;
+    }
+    
+    #Vaciar{
+        width: 13rem;
+        height: 5rem;
+        left: 77%;
+        bottom: 16%;
+        font-size: 1.5rem;
+    }
+
+    .suma{
+        font-size: 2.3rem;
+        right: 40%;
+        bottom: 5%;
+    }
+
+}
+
+@media (max-width: 380px){
+
+    .container{
+        width: 95%;
+        left: 50%;
+        top:48%;
+        height: 200vh;
+    }
+
+    .container__title{
+        top: -1.5%;
+        right: 1.4rem;
+    } 
+
+    .container__title img{
+        width: 104%;
+    }
+
+    .container__title p{
+        font-size: 2.5rem;
+    }
+
+    #pedido{
+        width: 9rem;
+        height: 5rem;
+        font-size: 1.3rem;
+        top:220%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #lista{
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.3rem;
+        top:220%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #finalizar{
+        width: 9rem;
+        height: 5rem;
+        font-size: 1.3rem;
+        top:220%;
+        left: 83%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+}
