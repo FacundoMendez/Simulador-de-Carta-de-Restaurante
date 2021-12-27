@@ -622,13 +622,13 @@ main{
 @media (max-width: 482px){
     main{
         overflow:auto;
-        height: 230vh;
+        height: 240vh;
     }
     .container{
         width: 95%;
         left: 50%;
-        top:48%;
-        height: 200vh;
+        top:47%;
+        height: 210vh;
     }
     
     .container__title{
@@ -652,7 +652,7 @@ main{
         width: 11rem;
         height: 5rem;
         font-size: 1.5rem;
-        top:220%;
+        top:228%;
         left: 17%;
         transform: translate(-50%, -50%);
     }
@@ -661,7 +661,7 @@ main{
         width: 11rem;
         height: 5rem;
         font-size: 1.5rem;
-        top:220%;
+        top:228%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -670,7 +670,7 @@ main{
         width: 11rem;
         height: 5rem;
         font-size: 1.5rem;
-        top:220%;
+        top:228%;
         left: 83%;
         transform: translate(-50%, -50%);
     }
