@@ -322,12 +322,37 @@ main{
     .container{
         width: 80%;
         left: 58%;
+        height: 95vh;
     }
     
     
     .container__cartas{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
+
+    .container__title{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: -3.5%;
+        filter: sepia(0.3);
+    } 
+    
+    .container__title img{
+        width: 50%;
+    }
+
+    .container__title p{
+        font-size: 5rem;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        font-weight: 900;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 1rem rgb(255, 254, 254);
+        font-style: italic;
+    }
+    
     
     
     #pedido{
@@ -344,6 +369,11 @@ main{
         width: 15rem;
         height: 6rem;
     }
+
+    .container__cartas{
+        font-size: 1.6rem;
+        line-height: 4rem;
+    }
     
     
     #listpedidos{
@@ -351,8 +381,12 @@ main{
         top:15%;
     }
     
-    
-    
+        
+    #listpedidos{
+        width: 70%;
+        height: 90vh;
+        top:44%;
+    }
     
     
     #Agregar{

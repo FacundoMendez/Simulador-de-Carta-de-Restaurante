@@ -212,16 +212,17 @@ main{
 
     .container{
         width: 50%;
-        height: 95vh;
+        height: 98vh;
         top:50%;
         left: 50%;
     }
     
     #formulario{
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 5rem;
         top: 45%;
-        left: 40%;
+        width: 100%;
+        left: 60%;
     }
     
     #formulario p{
@@ -243,7 +244,7 @@ main{
     
     #Final{
         width: 12rem;
-        height: 5rem;
+        height: 4rem;
         font-size: 1.8rem;
         font-weight: 800;
         letter-spacing: 1px;
@@ -255,7 +256,7 @@ main{
     
     #volver{
         width: 12rem;
-        height: 5rem;
+        height: 4rem;
         font-size: 1.8rem;
         font-size: 2rem;
         font-weight: 800;
@@ -267,7 +268,6 @@ main{
     }
     
     
-    
     .bot{
         display: flex;
         justify-content: center;
@@ -276,15 +276,15 @@ main{
         flex-direction: row;
         flex-wrap: nowrap;
         position: absolute;
-        bottom: 0%;
+        bottom: -2%;
         left:48%;
         transform: translate(-50%, -50%);
     }
     
     #pagar{
         color: white;
-        font-size: 2.4rem;
-        padding-top: 2rem;
+        font-size: 2.2rem;
+        padding-top: 1.5rem;
     }
     
     #aviso{
