@@ -286,5 +286,6 @@ function check2(){
         document.getElementById("fin").style.pointerEvents="auto";
         document.getElementById("fin").style.boxShadow=" 0 0 0.4rem green";
     }
+    check();
 }
 check2();
