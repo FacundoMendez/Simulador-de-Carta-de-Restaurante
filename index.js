@@ -90,6 +90,7 @@ document.getElementById("lista").onclick = function(){
     document.getElementById("img").style.display="none";
     document.getElementById("finalizar").style.display="none";
     document.getElementById("main").style.height="100vh";
+    document.getElementById("main").style.overflow="hidden";
 
     mostrarArray();
 }
@@ -120,6 +121,7 @@ document.getElementById("iconX").onclick = function(){
     document.getElementById("container").style.display="block";
     document.getElementById("finalizar").style.display="block";
     document.getElementById("main").style.height="";
+    document.getElementById("main").style.overflow="auto";
 }
 
 

@@ -348,7 +348,10 @@ main{
     
     #listpedidos{
         width: 90%;
+        top:15%;
     }
+    
+    
     
     
     
@@ -409,7 +412,7 @@ main{
     
     #listpedidos{
         width: 90%;
-        top: 30%;
+        top:15%;
     }
     
     
@@ -497,7 +500,7 @@ main{
     
     #listpedidos{
         width: 90%;
-        top: 30%;
+        top:15%;
     }
 
     
@@ -598,7 +601,7 @@ main{
     
     #listpedidos{
         width: 90%;
-        top: 30%;
+        top: 15%;
     }
 
     #container__carta1{
@@ -704,9 +707,11 @@ main{
     }
     
     #listpedidos{
-        width: 95%;
+        width: 90%;
+        top:15%;
     }
-
+    
+    
     #container__carta1{
         padding-top: 7rem;
     }
