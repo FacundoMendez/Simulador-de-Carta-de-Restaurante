@@ -322,7 +322,7 @@ main{
     .container{
         width: 80%;
         left: 58%;
-        height: 95vh;
+        height: 97vh;
     }
     
     
@@ -373,12 +373,6 @@ main{
     .container__cartas{
         font-size: 1.6rem;
         line-height: 4rem;
-    }
-    
-    
-    #listpedidos{
-        width: 90%;
-        top:15%;
     }
     
         
@@ -562,11 +556,16 @@ main{
         bottom: 16%;
     }
 
+
+
     .suma{
         font-size: 3rem;
         right: 55%;
         bottom: 2%;
     }
+    
+
+
 }
 
 
@@ -732,6 +731,8 @@ main{
         top:50%;
         left: 83%;
     }
+
+  
     
     .bott{
         width: 100%;
