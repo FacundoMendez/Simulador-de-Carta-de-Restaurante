@@ -349,7 +349,7 @@ main{
 @media (max-width :868px){
     .container{
         width: 55%;
-        height: 99vh;
+        height: 90vh;
         top:50%;
         left: 65%;
     }
@@ -368,13 +368,13 @@ main{
     #formulario select{
         margin: 0 1rem;
         height: 2rem;
-        width: 20rem;
+        width: 12rem;
     }
     
     
     #formulario input{
         height: 2.5rem;
-        width: 15rem;
+        width: 11rem;
         margin: 0 1rem;
     }
     
@@ -444,6 +444,19 @@ main{
         height: 120vh;
     }
 
+    #formulario select{
+        margin: 0 1rem;
+        height: 2rem;
+        width: 12rem;
+    }
+    
+    
+    #formulario input{
+        height: 2.5rem;
+        width: 11rem;
+        margin: 0 1rem;
+    }
+
     .container{
         width: 75%;
         height: 95vh;
@@ -486,7 +499,7 @@ main{
         position: absolute;
         bottom: 0%;
         left:48%;
-        margin-bottom: -46rem;
+        margin-bottom: -42rem;
     }
 
 
@@ -494,9 +507,13 @@ main{
 
 
 @media (max-width: 482px){
+
+    main{
+        height: 120vh;
+    }
     .container{
         width: 85%;
-        height: 104vh;
+        height: 90vh;
         top:50%;
         left: 50%;
     }
@@ -512,6 +529,19 @@ main{
         border-radius: 5px;
     }
     
+    #formulario select{
+        margin: 0 1rem;
+        height: 2rem;
+        width: 12rem;
+    }
+    
+    
+    #formulario input{
+        height: 2.5rem;
+        width: 11rem;
+        margin: 0 1rem;
+    }
+
     #volver{
         width: 10rem;
         height: 5rem;
