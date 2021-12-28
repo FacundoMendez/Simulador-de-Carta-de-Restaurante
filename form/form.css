@@ -122,15 +122,15 @@ main{
 
     .container{
         width: 50%;
-        height: 95vh;
+        height: 100vh;
         top:50%;
         left: 50%;
     }
     
     #formulario{
         font-size: 2rem;
-        line-height: 4.8rem;
-        top: 45%;
+        line-height: 5rem;
+        top: 43%;
         left: 40%;
         z-index: 10000
     }
@@ -205,7 +205,7 @@ main{
         position: relative;
         right:0%;
     }
-    
+
 }
 
 
@@ -213,7 +213,7 @@ main{
 
     .container{
         width: 50%;
-        height: 98vh;
+        height: 100vh;
         top:50%;
         left: 50%;
     }
@@ -322,11 +322,11 @@ main{
     }
     
     #formulario{
-        font-size: 1.7rem;
-        line-height: 5rem;
+        font-size: 1.9rem;
+        line-height: 5.5rem;
         top: 50%;
         width: 100%;
-        left: 51%;
+        left: 55%;
         z-index: 10000;
     }
 
@@ -343,6 +343,30 @@ main{
         margin: 0 1rem;
     }
     
+    #Final{
+        width: 12rem;
+        height: 6rem;
+        font-size: 1.8rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #volver{
+        width: 12rem;
+        height: 6rem;
+        font-size: 1.8rem;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        background-color:rgb(19, 19, 19);
+        box-shadow: 0 0 0.4rem rgb(255, 255, 255);
+        color: white;
+        border-radius: 5px;
+    }
     
 }
 
@@ -357,7 +381,7 @@ main{
     
     #formulario{
         font-size: 1.7rem;
-        line-height: 4rem;
+        line-height: 5.4rem;
         top: 50%;
         left: 55%;
         z-index: 10000;
@@ -454,6 +478,7 @@ main{
     
     #formulario{
         z-index: 10000;
+        line-height: 5.7rem;
     }
 
     #formulario input{
@@ -504,7 +529,7 @@ main{
         position: absolute;
         bottom: 0%;
         left:48%;
-        margin-bottom: -42rem;
+        margin-bottom: -52rem;
     }
 
 
@@ -537,7 +562,7 @@ main{
 
     #formulario{
         z-index: 10000;
-        line-height: 4.7rem;
+        line-height: 5.2rem;
     }
     #formulario select{
         margin: 0 1rem;
@@ -598,7 +623,7 @@ main{
     
     #formulario{
         z-index: 10000;
-        line-height: 4rem;
+        line-height: 4.5rem;
     }
     #volver{
         width: 10rem;
